@@ -1,6 +1,6 @@
 """
 Mudança no Calculo de IMC
-com F String, Input e condicional
+com F String e Input
 
 
 """
