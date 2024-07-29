@@ -6,5 +6,5 @@
 print('a' + 'b')
 print(int('1'), type(int('1'))) #conversão de tipo
 print(int('1') + 1)
-print(type(int('1') + 2))
+print((int('1') + 2))
 print(str(11) + 'B')
