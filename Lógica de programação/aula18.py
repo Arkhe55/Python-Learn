@@ -24,5 +24,3 @@ if senha in confirmacao:
     print("Continuando seu cadastro...")
 else:
     print("Confirmação incorreta")
-
-
