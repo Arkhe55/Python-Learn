@@ -1,7 +1,7 @@
 variavel = "a"
 print(id(variavel))
 
-condicao = True
+condicao = False
 passou_no_if = None
 
 if condicao:
