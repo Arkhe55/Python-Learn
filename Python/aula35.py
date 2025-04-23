@@ -10,6 +10,6 @@
 
 # print(nome1)
 
-nome1, *resto = ["Gabriel", "Rafael", "Miguel"]
+_, nome1, *resto = ["Gabriel", "Rafael", "Miguel"]
 
 print(resto)
