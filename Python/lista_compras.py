@@ -12,19 +12,21 @@ while True:
 
 
     elif opção_usuario == "a":
+        indice_str = input("Escolha o indice a apagar")
         try:
-            lista_compras.pop() 
-        except:
-            print("Sua lista esta vazia, adicione algo ao a ela.")
-            continue
+            indice = int(indice_str)
+            del lista_compras[indice]
+        except IndexError:
+            print("Indice não existe na lista")
+        except ValueError:
+            print("Digite um número inteiro")
+        except Exception:
+            print("Erro desconhecido")
 
     elif opção_usuario == "l":
         # lista_enumerada = enumerate(lista_compras)
         for item in enumerate(lista_compras):
             print(item)
-       
-    
-           
-        
+                          
 else:
     print("Por favor digite novamente: ")
