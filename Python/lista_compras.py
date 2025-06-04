@@ -1,3 +1,4 @@
+import os
 lista_compras = []
 
 while True:
@@ -5,6 +6,7 @@ while True:
     "[a]pagar [l]istar: " )
 
     if opção_usuario == "i":
+       os.system('cls')
        item_add = input("Digite um item para lista de compras: ")
        lista_compras.append(item_add)
 
