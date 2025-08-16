@@ -21,9 +21,15 @@ Se o resultado anterior for maior que 9:
 contrário disso:
     resultado é o valor da conta
 """
+import re
 
 while True:
     dado_usuario = input("Digite seu CPF: ")
+    dado_usuario = re.sub(r"[^0-9]", "",
+    dado_usuario)
+    
+    print(dado_usuario)
+
     try:
         if len(dado_usuario) != 11:
             raise Exception("")
