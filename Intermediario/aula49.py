@@ -15,10 +15,12 @@ print(x, y, resto)
 def argumento(*args):
     total = 0
     for numero in args:
-        print("Total", total, numero)
         total += numero
-        print("Total", total)
+    return(total)
 
-argumento(1, 2, 3, 4, 5, 6, 7)
+soma = argumento(1, 2, 3, 4, 5 ,6 ,7)
+print(soma)
 
+soma_2 = argumento(4, 5, 6, 20, 40, 80)
+print(soma_2)
 
