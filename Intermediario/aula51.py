@@ -1,12 +1,12 @@
 """Closure função que retorna outras funçoes"""
 
-def comprimento(msg):
+def saudação(msg):
     def saudar(nome):
-        return f'{msg}, {nome}'
+        return f'{msg}, {nome}' 
     return saudar
 
-falar_bom_dia = comprimento("Olá bom dia")
-falar_boa_noite = comprimento("Olá boa noite")
+falar_bom_dia = saudação("Olá bom dia")
+falar_boa_noite = saudação("Olá boa noite")
 
 # print(falar_bom_dia("Gabriel"))
 # print(falar_boa_noite("Luiz"))
