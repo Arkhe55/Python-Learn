@@ -2,7 +2,7 @@
 
 def saudação(msg):
     def saudar(nome):
-        return f'{msg}, {nome}' 
+        return f'{msg}, {nome}'
     return saudar
 
 falar_bom_dia = saudação("Olá bom dia")
