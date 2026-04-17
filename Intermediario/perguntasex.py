@@ -10,12 +10,13 @@ perguntas = [
         'resposta': '400',
         }]
 
+qtd_acertos = 0
 for pergunta in perguntas:
     print('Pergunta:', pergunta['pergunta'])
     print()
 
     opçoes = pergunta['opçoes']
-    
+
     for i, opcao in enumerate(opçoes):
         print(f"{i})",opcao)
 
@@ -36,8 +37,14 @@ for pergunta in perguntas:
     print()
 
     if acertou:
-        print("Acertou")
+        qtd_acertos += 1
+        print("Acertou!!")
     else:
         print("Não acertou")
+
+    print()
+
+    print("Quantidade de acertos: ", qtd_acertos)
+    print("de", len(perguntas), "perguntas")
 
 
