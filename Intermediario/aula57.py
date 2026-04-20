@@ -33,3 +33,7 @@ print(set_1)
 # for i, indice in enumerate(set_1):
 #     print(i, indice)
 
+# Métodos úteis:
+# add, update, clear, discard
+
+
