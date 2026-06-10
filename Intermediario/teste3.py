@@ -44,5 +44,3 @@ for pergunta in perguntas:
 
     print()
 
-    print("Quantidade de acertos: ", qtd_acertos)
-    print("de", len(perguntas), "perguntas")
