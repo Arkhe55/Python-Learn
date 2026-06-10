@@ -1,4 +1,3 @@
-def sum(a, b):
-    print(a + b)
-    
-sum(5, 5)
+nome = "Rinron"
+
+print("rinron")
