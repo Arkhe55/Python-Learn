@@ -1,3 +1,0 @@
-nome = "Batata"
-
-print("batata")
