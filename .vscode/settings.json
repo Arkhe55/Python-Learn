@@ -3,7 +3,7 @@
     "workbench.startupEditor": "none",
     "explorer.compactFolders": false,
     "workbench.iconTheme": "material-icon-theme",
-    "editor.fontSize": 20,
+    "editor.fontSize": 23,
     "workbench.colorTheme": "Dracula Theme Soft",
     "code-runner.executorMap": {
         "python": "clear ; python -u",
